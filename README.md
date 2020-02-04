@@ -14,7 +14,7 @@ It's possible to install Elasticsearch 5.x, but it does require some manual setu
 
 ```shell
 # on 0.12.x+
-sudo dokku plugin:install https://github.com/dokku/dokku-elasticsearch.git elasticsearch
+sudo dokku plugin:install https://github.com/dfurber/dokku-elasticsearch.git elasticsearch
 ```
 
 If you want to run elasticsearch 5.x, there's a requirement to increase the `vm.max_map_count`
