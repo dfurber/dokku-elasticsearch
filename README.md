@@ -1,6 +1,8 @@
 # dokku elasticsearch [![Build Status](https://img.shields.io/travis/dokku/dokku-elasticsearch.svg?branch=master "Build Status")](https://travis-ci.org/dokku/dokku-elasticsearch) [![IRC Network](https://img.shields.io/badge/irc-freenode-blue.svg "IRC Freenode")](https://webchat.freenode.net/?channels=dokku)
 
-Official elasticsearch plugin for dokku. Currently defaults to installing [elasticsearch 6.8.5](https://hub.docker.com/_/elasticsearch/).
+Fork of official elasticsearch plugin for dokku. The official plugin is broken because of a kernel panic error. This fork fixes that.
+
+(https://hub.docker.com/_/elasticsearch/).
 It's possible to install Elasticsearch 5.x, but it does require some manual setup. 
 
 ## requirements
